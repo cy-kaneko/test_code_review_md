@@ -13,7 +13,7 @@
   },
   "remarkConfig": {
     "plugins": [
-      "remark-preset-lint-recommended"
+      "preset-lint-markdown-style-guide"
     ]
   },
   "author": "",
@@ -23,9 +23,21 @@
   },
   "homepage": "https://github.com/cy-kaneko/test_code_review_md#readme",
   "dependencies": {
+    "dictionary-en-us": "^3.0.0",
     "remark": "^12.0.1",
     "remark-cli": "^8.0.1",
+    "remark-frontmatter": "^2.0.0",
     "remark-lint": "^7.0.1",
-    "remark-preset-lint-recommended": "^4.0.1"
+    "remark-preset-lint-consistent": "^3.0.1",
+    "remark-preset-lint-markdown-style-guide": "^3.0.1",
+    "remark-preset-lint-recommended": "^4.0.1",
+    "remark-retext": "^4.0.0",
+    "retext-english": "^3.0.4",
+    "retext-repeated-words": "^3.0.0",
+    "retext-sentence-spacing": "^4.0.0",
+    "retext-spell": "^4.0.0",
+    "retext-syntax-urls": "^2.0.0",
+    "retext-usage": "^0.5.0",
+    "unified": "^9.0.0"
   }
 }
