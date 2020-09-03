@@ -7,18 +7,18 @@ var component = new Notification({
   text:  'Error occurred!'
 });
 ```
-***
+---
 # Specification
 
 ## Property
 
 使用できるプロパティの一覧です。プロパティを指定して値を更新することができます。
 
-| Name| Type| Default | Description |　Remark |
+| Name | Type | Default | Description | Remark |
 | :--- | :--- | :--- | :--- | :--- |
-|className|string|""|コンポーネントの class 名||
-|text|string|""|表示するテキスト||
-|type|string|"danger"|背景色|以下を指定できる<br>"danger" : Red(#e74c3c)<br>"info" : Blue(#3498db)<br>"success" : Green(#91c36c)|
+| className | string | "" | コンポーネントの class 名 ||
+| text | string | "" | 表示するテキスト ||
+| type | string | "danger" | 背景色 | 以下を指定できる<br>"danger" : Red(#e74c3c)<br>"info" : Blue(#3498db)<br>"success" : Green(#91c36c) |
 
 ## Constructor
 
@@ -26,9 +26,9 @@ Notification(options)
 使用できるコンストラクタの一覧です。
 
 ### Parameter
-| Name| Type| Default | Description |Remark|
+| Name | Type | Default | Description | Remark |
 | :--- | :--- | :--- | :--- | :--- |
-|options|object|{}|コンポーネントのプロパティを含む JSON オブジェクト|options 内の値は必須でない|
+| options | object | {} | コンポーネントのプロパティを含む JSON オブジェクト | options 内の値は必須でない |
 
 ## Method
 
@@ -52,7 +52,7 @@ none
 #### Return
 none
 
-***
+---
 # Sample Code
 
 全てのパラメータを指定した場合のサンプルコードです。
